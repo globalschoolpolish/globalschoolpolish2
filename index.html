@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Niezależna Recenzja: Global School Polish for Joy</title>
+    <style>
+        :root {
+            --primary-color: #d32f2f; /* Czerwony kolor ostrzegawczy */
+            --bg-color: #f4f6f8;
+            --text-color: #333;
+            --card-bg: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.2rem;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .disclaimer {
+            background-color: #fff3cd;
+            color: #856404;
+            border: 2px solid #ffeeba;
+            padding: 1.2rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            font-weight: bold;
+            text-align: center;
+            font-size: 1.1rem;
+        }
+
+        .review-card {
+            background-color: var(--card-bg);
+            padding: 2.5rem;
+            border-radius: 12px;
+            box-shadow: 0 10px 15px rgba(0,0,0,0.05);
+        }
+
+        .rating {
+            color: gold;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+        }
+
+        .rating span.empty {
+            color: #e0e0e0;
+        }
+
+        h2 {
+            color: var(--text-color);
+            margin-top: 0;
+            font-size: 1.8rem;
+        }
+
+        .verdict {
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: var(--primary-color);
+            background-color: #ffebee;
+            padding: 1rem;
+            border-left: 5px solid var(--primary-color);
+            border-radius: 4px;
+            margin-bottom: 1.5rem;
+        }
+
+        p {
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+        }
+
+        .story {
+            display: none; /* Ukryte domyślnie, przełączane przez JS */
+            background: #fafafa;
+            padding: 1.5rem;
+            border: 1px solid #eee;
+            border-radius: 8px;
+            margin-top: 1.5rem;
+        }
+
+        .story p:last-child {
+            margin-bottom: 0;
+        }
+
+        button {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 1.1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.1s ease;
+            width: 100%;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        button:active {
+            transform: scale(0.98);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 4rem;
+            padding: 2rem;
+            font-size: 0.9rem;
+            color: #777;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Opinia o Global School Polish for Joy</h1>
+    </header>
+
+    <div class="container">
+        <!-- Komunikat o braku powiązań ze szkołą -->
+        <div class="disclaimer">
+            ⚠️ WAŻNE: Ta strona to w 100% niezależna, prywatna recenzja. Strona NIE JEST w żaden sposób powiązana, autoryzowana, sponsorowana ani wspierana przez szkołę językową "Global School Polish for Joy" (globalschool.com.pl).
+        </div>
+
+        <div class="review-card">
+            <h2>Moje doświadczenie</h2>
+            
+            <!-- Gwiazdki generowane przez JS -->
+            <div class="rating" id="star-rating"></div>
+
+            <div class="verdict">
+                Werdykt: Ta szkoła językowa jest okropna i absolutnie nikomu jej nie polecam!
+            </div>
+
+            <p>
+                Jeśli zastanawiasz się nad zapisaniem do tej szkoły, radzę Ci poważnie to przemyśleć. Moje dzisiejsze doświadczenie to kompletna porażka i brak szacunku do czasu potencjalnego kursanta.
+            </p>
+
+            <button id="toggle-story-btn">Kliknij, aby przeczytać szczegóły mojej historii</button>
+
+            <!-- Sekcja z historią (ukryta domyślnie) -->
+            <div class="story" id="story-content">
+                <p>Dzisiaj chciałem się zapisać do tej szkoły językowej na kurs poziomu <strong>C1</strong>. Według zapowiedzi, formularz zapisów miał być dostępny dokładnie od godziny 9:00.</p>
+                
+                <p>Niestety, formularza nie było! Specjalnie miałem otwartą ich stronę przez pół godziny i sumiennie odświeżałem ją raz na 5 minut, żeby na pewno zdążyć. A co się stało? Po godzinie nagle wyskoczył komunikat, że <em>"nie ma już miejsc"</em>, chociaż wcześniej w ogóle nie było żadnego formularza, w którym można byłoby się zapisać.</p>
+                
+                <p>Prawda jest taka, że oni używają go jako przykrywki, a na kurs zapisują tylko swoich dotychczasowych uczniów, którzy płacą im gigantyczne pieniądze – po 5000 zł za kurs. Zwykły człowiek nie ma żadnych szans na zapis, a cały ten rzekomo otwarty nabór to strata czasu.</p>
+                
+                <p>Dodatkowo z moich informacji wynika, że same kursy u nich są po prostu <strong>okropne</strong>. Stanowczo odradzam – szkoda waszych nerwów, czasu i pieniędzy!</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; <span id="year"></span> Niezależne Recenzje Szkół Językowych. Wszelkie prawa zastrzeżone.
+    </footer>
+
+    <script>
+        // JavaScript dla interaktywności strony
+
+        // 1. Automatyczne ustawianie obecnego roku w stopce
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // 2. Generowanie oceny 1/5 gwiazdek
+        const ratingContainer = document.getElementById('star-rating');
+        let starsHTML = '';
+        for(let i = 1; i <= 5; i++) {
+            if(i === 1) {
+                starsHTML += '★'; // 1 pełna gwiazdka
+            } else {
+                starsHTML += '<span class="empty">☆</span>'; // 4 puste gwiazdki
+            }
+        }
+        ratingContainer.innerHTML = starsHTML + ' <span style="font-size: 1.2rem; color: #555;">(1/5)</span>';
+
+        // 3. Rozwijanie/Zwijanie szczegółów historii (Toggle)
+        const btn = document.getElementById('toggle-story-btn');
+        const story = document.getElementById('story-content');
+
+        btn.addEventListener('click', function() {
+            if (story.style.display === 'block') {
+                story.style.display = 'none';
+                btn.textContent = 'Kliknij, aby przeczytać szczegóły mojej historii';
+                btn.style.backgroundColor = '#333';
+            } else {
+                story.style.display = 'block';
+                btn.textContent = 'Ukryj szczegóły historii';
+                btn.style.backgroundColor = 'var(--primary-color)';
+            }
+        });
+    </script>
+</body>
+</html>
